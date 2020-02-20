@@ -1,2 +1,14 @@
-<h1>StaticPages#about</h1>
-<p>Find me in app/views/static_pages/about.html.erb</p>
+<% provide(:title, "About") %>
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title><%= yield(:title) %> | Direct Adventures</title>
+  </head>
+  <body>
+    <h1>About</h1>
+    <p>Direct Adventures is a website in which users may read and create
+    choose-your-own adventure stories. Click on User to log in and Home to
+    explore the site.</p>
+  </body>
+</html>

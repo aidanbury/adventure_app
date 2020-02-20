@@ -1,2 +1,13 @@
-<h1>StaticPages#user</h1>
-<p>Find me in app/views/static_pages/user.html.erb</p>
+<% provide(:title, "User") %>
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title><%= yield(:title) %> | Direct Adventures</title>
+  </head>
+  <body>
+    <h1>User</h1>
+    <p>Log in functionality currently unavailable</p>
+  </body>
+  
+</html>
