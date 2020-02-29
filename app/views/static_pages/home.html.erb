@@ -6,9 +6,12 @@
     <title><%= yield(:title) %></title>
   </head>
   <body>
-    <div class="onleft"><p><br><br><br>The West</p></div>
-    <div class="onright"><p><br><br><br>The East</p></div>
-    <div class="center">The North<br><br><br>Where do you want to
-      go?<br><br><br>The South</div>
+    <div class="onleft"><br><br><br>The West</div>
+    <div class="onright"><br><br><br>The East</div>
+    <div class="center">
+      The North<br><br><br>
+      Where do you want to go?<br>
+      <p>The Wind Blows <%= @s_dir %></p><br><br>
+      The South</div>
   </body>
 </html>
