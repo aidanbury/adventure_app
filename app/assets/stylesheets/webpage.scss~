@@ -1,0 +1,35 @@
+@import "bootstrap-sprockets";
+@import "bootstrap";
+@charset "UTF-8";
+
+body {
+    background-color:AntiqueWhite;
+}
+
+.center {
+    text-align: center;
+}
+
+#navbar {
+	background-color:CadetBlue;
+	color: white;
+	height:30px;
+	border: 1px solid black;
+	margin: 0;
+	padding: 0;
+}
+
+#navbar ul {
+	padding: 0;
+	margin: 0;
+}
+
+#navbar li {
+	list-style: none; 
+	font-size: large;
+	font-family: 'Merriweather', Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	float: left; 
+	margin: 0; 
+	width: 20%; 
+
+    }

@@ -22,4 +22,9 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
+
+Referenced the Hartl Ruby on Rails textbook while constructing this site
+
+Referenced Prof. Johnson's Navbar tutorial
+
 # adventure_app
