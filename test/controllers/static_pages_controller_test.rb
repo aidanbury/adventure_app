@@ -12,6 +12,13 @@ class StaticPagesControllerTest < ActionDispatch::IntegrationTest
     assert_select "title", "Home | #{@base_title}"
   end
 
+  test "home has direction" do
+    get root_path
+    assert_response :success
+    directions = %w(North South East West)
+    assert_includes directions, assigns(:s_dir)
+  end
+
   test "should get about" do
     get about_path
     assert_response :success
